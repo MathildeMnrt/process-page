@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.app {
+    @apply w-screen h-[200px] bg-hero bg-cover;
+  }
+
+
+.red-hat {
+    font-family: "Red Hat Display", sans-serif;
+}
+
+span {
+    @apply text-theme-purple font-semibold
+}
+
